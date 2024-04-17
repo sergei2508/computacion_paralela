@@ -19,6 +19,10 @@ for _ in range(10):
     hilos.append(hilo)
     hilo.start()
 
+
+
+
+
 # Esperar a que todos los hilos terminen
 for hilo in hilos:
     hilo.join()
