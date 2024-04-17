@@ -23,4 +23,4 @@ for _ in range(10):
 for hilo in hilos:
     hilo.join()
 
-print(f"Valor final del contador: {counter}")
+print(f"Valor final del contador: {counter}---- {hilos}")
